@@ -1,4 +1,4 @@
-<body style="background-color:blue;">
+
 print("Ｓ４０５２３１２２   :D")
 print("    ")
 print("    ")
@@ -6,7 +6,7 @@ print("    ")
 print("    ")
 
 
-
+<body style="background-color:blue;">
 
 print("┴┬┴┬／￣＼＿／￣＼")  
 print("┬┴┬┴▏　　▏▔▔▔▔＼ ")  
