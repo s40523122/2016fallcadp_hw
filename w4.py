@@ -6,7 +6,7 @@ print("    ")
 print("    ")
 
 
-<body style="background-color:blue;">
+
 
 print("┴┬┴┬／￣＼＿／￣＼")  
 print("┬┴┬┴▏　　▏▔▔▔▔＼ ")  
