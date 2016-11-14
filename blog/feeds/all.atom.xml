@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-09-02T12:00:00+08:00</updated><entry><title>2016Fall 簡報與網誌系統</title><link href="./2016fall-jian-bao-yu-wang-zhi-xi-tong.html" rel="alternate"></link><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-jian-bao-yu-wang-zhi-xi-tong.html</id><summary type="html">&lt;p&gt;這個系統共集結了 reveal.js 網際簡報與 pelican 靜態網誌系統.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-11-10T12:00:00+08:00</updated><entry><title>git指令</title><link href="./gitzhi-ling.html" rel="alternate"></link><published>2016-11-10T12:00:00+08:00</published><updated>2016-11-10T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-11-10:./gitzhi-ling.html</id><summary type="html">&lt;p&gt;gtg&lt;/p&gt;
 
 
-&lt;p&gt;網誌 Category&lt;/p&gt;
-&lt;p&gt;網誌 Tags&lt;/p&gt;
-&lt;p&gt;reveal.js 使用導引&lt;/p&gt;</summary><category term="使用導引"></category></entry></feed>
+&lt;p&gt;cd&lt;/p&gt;</summary><category term="指令"></category></entry><entry><title>git指令</title><link href="./gitzhi-ling.html" rel="alternate"></link><published>2016-11-10T12:00:00+08:00</published><updated>2016-11-10T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-11-10:./gitzhi-ling.html</id><summary type="html">&lt;p&gt;gtg&lt;/p&gt;
+
+
+&lt;p&gt;cd&lt;/p&gt;</summary><category term="指令"></category></entry><entry><title>github簡介</title><link href="./githubjian-jie.html" rel="alternate"></link><published>2016-11-02T12:00:00+08:00</published><updated>2016-11-02T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-11-02:./githubjian-jie.html</id><summary type="html">&lt;iframe src="https://player.vimeo.com/video/191363717" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/191363717"&gt;github&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+</summary><category term="使用引導"></category></entry><entry><title>git指令</title><link href="./gitzhi-ling.html" rel="alternate"></link><published>2016-11-01T12:00:00+08:00</published><updated>2016-11-01T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-11-01:./gitzhi-ling.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;cd=change directory 
+dir=directory 
+mk dir=make directory 
+git clone ...........................克隆倉儲資料 
+git branch..............................查詢目前分支 
+git branch...........................建立分支 
+git checkout ........................改成分支 
+git status..............................查看目前檔案情形 
+git config --global user.name "".....登入名稱 
+git config --global user.email ......登入信箱 
+git add -A..............................加入全部(-A =all) 
+git commit -m...........................提交訊息(-m =message) 
+git push ### ........................提交至###的分支(若### =origin 表原網頁)&lt;/p&gt;</summary><category term="指令"></category></entry><entry><title>git指令</title><link href="./gitzhi-ling.html" rel="alternate"></link><published>2016-11-01T12:00:00+08:00</published><updated>2016-11-01T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-11-01:./gitzhi-ling.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;cd=change directory 
+dir=directory 
+mk dir=make directory 
+git clone ...........................克隆倉儲資料 
+git branch..............................查詢目前分支 
+git branch...........................建立分支 
+git checkout ........................改成分支 
+git status..............................查看目前檔案情形 
+git config --global user.name "".....登入名稱 
+git config --global user.email ......登入信箱 
+git add -A..............................加入全部(-A =all) 
+git commit -m...........................提交訊息(-m =message) 
+git push ### ........................提交至###的分支(若### =origin 表原網頁)&lt;/p&gt;</summary><category term="指令"></category></entry></feed>
