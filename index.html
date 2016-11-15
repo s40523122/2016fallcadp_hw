@@ -109,12 +109,20 @@ Created by [紀錦川](http://s40523122.github.io)/[@s40523122](https://github.c
 <section>
 <section data-markdown>
     <script type="text/template">
-# 計算機程式專題
-
-* 如何進行上課分組與排座位?
-* 如何寫一個猜數字遊戲?
-* 如何繪製 2D 靜態圖?
-* 如何製作一個簡單的網際遊戲?
+#git 指令
+cd=change directory<br/>
+dir=directory<br/>
+mk dir=make directory<br/>
+git clone ***...........................克隆***倉儲資料<br/>
+git branch..............................查詢目前分支<br/>
+git branch***...........................建立***分支<br/>
+git checkout ***........................改成***分支<br/>
+git status..............................查看目前檔案情形<br/>
+git config --global user.name "***".....登入名稱***<br/>
+git config --global user.email ***......登入信箱***<br/>
+git add -A..............................加入全部(-A =all)<br/>
+git commit -m...........................提交訊息(-m =message)<br/>
+git push ### ***........................提交至###的***分支(若### =origin 表原網頁)
     </script>
 </section>
 
@@ -124,11 +132,22 @@ Created by [紀錦川](http://s40523122.github.io)/[@s40523122](https://github.c
 <section>
 <section data-markdown>
     <script type="text/template">
-# Github 倉儲網頁
-
-####建立個人 Github 網頁 (帳號.github.io)
-####建立個人課程作業網頁 (納入投影片與網誌架構)
-####組長建立分組的評量網頁 (納入投影片與網誌架構)
+#git clone 順序
+1.cd 進入想儲存的資料夾
+<br/>
+2.git clone 遠端的網址 (可在後面加名稱表創一個資料夾)
+<br/>
+3.git branch 確認分支是否正確，可在後面加名稱表加入一個新分支
+<br/>
+4.git checkout 切換成想要使用的分支
+<br/>
+5.git status 確認資料夾狀態
+<br/>
+6.git all -A 加入全部的修改
+<br/>
+7.git commit -m 提交並給一個訊息
+<br/>
+8.git push origin 推回遠端，可在後面家要加入的分支的名稱
     </script>
 </section>
 
@@ -138,11 +157,38 @@ Created by [紀錦川](http://s40523122.github.io)/[@s40523122](https://github.c
 <section>
 <section data-markdown>
     <script type="text/template">
-# Python3 語法
+#W7作業
+   data3 = open("w6_group.txt").read()
+    #data3=open("w6_list.txt").read()
+    #print (data3)
 
-####print()
-####input()
-####變數名稱與關鍵字
+    group=data3.splitlines()
+    #for i in range(1,5,2):
+    #print(len(group))
+
+
+
+    # 希望將分組資料轉為學員數列, 令為變數名稱 result_g
+    result_g = []
+    # 已經註冊者數列設為 registered
+    registered = open("w6_list.txt").read()
+    registered =registered.splitlines()
+    #print(registered)
+    for line in group:
+        # 去除每一行最後的空白成員
+        sline = line.split(",")[:-1]
+        #print ( sline)
+        # 再將各組拆成個別組員後, 串成 result_g
+           for m in sline:
+            result_g.append(m)
+        #print(result_g)
+    #not_in_group = [c for c in registered if c not in result_g]
+    #print(not_in_group)
+
+    for m in registered:
+	    if m not in result_g:
+		    print(m)
+        #container3 <= len(sline)
     </script>
 </section>
 
@@ -153,12 +199,7 @@ Created by [紀錦川](http://s40523122.github.io)/[@s40523122](https://github.c
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+##end
     </script>
 </section>
 

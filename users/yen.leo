@@ -48,22 +48,22 @@
 </v>
 <v t="yen.20161011125115.1" a="E"><vh>第五頁</vh>
 <v t="yen.20161016011920.1" a="E"><vh></vh>
-<v t="yen.20161016011920.2"><vh>程式專題</vh></v>
+<v t="yen.20161016011920.2"><vh>git 指令</vh></v>
 </v>
 </v>
 <v t="yen.20161011143808.1" a="E"><vh>第六頁</vh>
 <v t="yen.20161011143808.2" a="E"><vh></vh>
-<v t="yen.20161011143808.3"><vh>Github 倉儲網頁</vh></v>
+<v t="yen.20161011143808.3"><vh>clone</vh></v>
 </v>
 </v>
 <v t="yen.20161011145156.1" a="E"><vh>第七頁</vh>
 <v t="yen.20161011145156.2" a="E"><vh></vh>
-<v t="yen.20161011145156.3"><vh>Python3 語法</vh></v>
+<v t="yen.20161011145156.3"><vh>w7</vh></v>
 </v>
 </v>
 <v t="yen.20161016012809.1" a="E"><vh>第八頁</vh>
 <v t="yen.20161016012809.2" a="E"><vh></vh>
-<v t="yen.20161016012809.3"><vh>LaTeX 格式方程式</vh></v>
+<v t="yen.20161016012809.3"><vh>end</vh></v>
 </v>
 </v>
 </v>
@@ -393,12 +393,22 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="yen.20161011143808.3"># Github 倉儲網頁
-
-####建立個人 Github 網頁 (帳號.github.io)
-####建立個人課程作業網頁 (納入投影片與網誌架構)
-####組長建立分組的評量網頁 (納入投影片與網誌架構)
-</t>
+<t tx="yen.20161011143808.3">#git clone 順序
+1.cd 進入想儲存的資料夾
+&lt;br/&gt;
+2.git clone 遠端的網址 (可在後面加名稱表創一個資料夾)
+&lt;br/&gt;
+3.git branch 確認分支是否正確，可在後面加名稱表加入一個新分支
+&lt;br/&gt;
+4.git checkout 切換成想要使用的分支
+&lt;br/&gt;
+5.git status 確認資料夾狀態
+&lt;br/&gt;
+6.git all -A 加入全部的修改
+&lt;br/&gt;
+7.git commit -m 提交並給一個訊息
+&lt;br/&gt;
+8.git push origin 推回遠端，可在後面家要加入的分支的名稱</t>
 <t tx="yen.20161011145156.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -411,11 +421,38 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="yen.20161011145156.3"># Python3 語法
+<t tx="yen.20161011145156.3">#W7作業
+   data3 = open("w6_group.txt").read()
+    #data3=open("w6_list.txt").read()
+    #print (data3)
 
-####print()
-####input()
-####變數名稱與關鍵字
+    group=data3.splitlines()
+    #for i in range(1,5,2):
+    #print(len(group))
+
+
+
+    # 希望將分組資料轉為學員數列, 令為變數名稱 result_g
+    result_g = []
+    # 已經註冊者數列設為 registered
+    registered = open("w6_list.txt").read()
+    registered =registered.splitlines()
+    #print(registered)
+    for line in group:
+        # 去除每一行最後的空白成員
+        sline = line.split(",")[:-1]
+        #print ( sline)
+        # 再將各組拆成個別組員後, 串成 result_g
+           for m in sline:
+            result_g.append(m)
+        #print(result_g)
+    #not_in_group = [c for c in registered if c not in result_g]
+    #print(not_in_group)
+
+    for m in registered:
+	    if m not in result_g:
+		    print(m)
+        #container3 &lt;= len(sline)
 </t>
 <t tx="yen.20161016004633.1">&lt;section&gt;
 @others
@@ -443,13 +480,20 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="yen.20161016011920.2"># 計算機程式專題
-
-* 如何進行上課分組與排座位?
-* 如何寫一個猜數字遊戲?
-* 如何繪製 2D 靜態圖?
-* 如何製作一個簡單的網際遊戲?
-</t>
+<t tx="yen.20161016011920.2">#git 指令
+cd=change directory&lt;br/&gt;
+dir=directory&lt;br/&gt;
+mk dir=make directory&lt;br/&gt;
+git clone ***...........................克隆***倉儲資料&lt;br/&gt;
+git branch..............................查詢目前分支&lt;br/&gt;
+git branch***...........................建立***分支&lt;br/&gt;
+git checkout ***........................改成***分支&lt;br/&gt;
+git status..............................查看目前檔案情形&lt;br/&gt;
+git config --global user.name "***".....登入名稱***&lt;br/&gt;
+git config --global user.email ***......登入信箱***&lt;br/&gt;
+git add -A..............................加入全部(-A =all)&lt;br/&gt;
+git commit -m...........................提交訊息(-m =message)&lt;br/&gt;
+git push ### ***........................提交至###的***分支(若### =origin 表原網頁)</t>
 <t tx="yen.20161016012809.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -464,13 +508,7 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="yen.20161016012809.3"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
+<t tx="yen.20161016012809.3">##end</t>
 <t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
