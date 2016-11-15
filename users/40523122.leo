@@ -19,7 +19,58 @@
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
-<v t="amd.20151216151325.1"><vh>@edit index.html</vh></v>
+<v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
+<v t="amd.20161004083800.1" a="E"><vh>html</vh>
+<v t="amd.20161004083800.2"><vh>head</vh></v>
+<v t="amd.20161004083800.5" a="E"><vh>body</vh>
+<v t="amd.20161004083800.6" a="E"><vh>reveal div</vh>
+<v t="amd.20161004083800.7" a="E"><vh>slides div</vh>
+<v t="amd.20161004095719.1" a="E"><vh>封面投影片</vh>
+<v t="amd.20161004095719.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="yen.20161016023122.1" a="E"><vh>第一頁</vh>
+<v t="yen.20161016023122.2"><vh>github</vh></v>
+</v>
+<v t="amd.20161004104820.1" a="E"><vh>第二頁</vh>
+<v t="amd.20161004104641.1" a="E"><vh></vh>
+<v t="amd.20161004104641.2"><vh>clone</vh></v>
+</v>
+</v>
+<v t="yen.20161016004633.1" a="E"><vh>第三頁</vh>
+<v t="yen.20161016004633.4" a="E"><vh></vh>
+<v t="yen.20161016004633.5"><vh>sharex</vh></v>
+</v>
+</v>
+<v t="yen.20161011122932.1" a="E"><vh>第四頁</vh>
+<v t="yen.20161011122601.1" a="E"><vh></vh>
+<v t="yen.20161011122601.2"><vh>localhost</vh></v>
+</v>
+</v>
+<v t="yen.20161011125115.1" a="E"><vh>第五頁</vh>
+<v t="yen.20161016011920.1" a="E"><vh></vh>
+<v t="yen.20161016011920.2"><vh>git 指令</vh></v>
+</v>
+</v>
+<v t="yen.20161011143808.1" a="E"><vh>第六頁</vh>
+<v t="yen.20161011143808.2" a="E"><vh></vh>
+<v t="yen.20161011143808.3"><vh>clone</vh></v>
+</v>
+</v>
+<v t="yen.20161011145156.1" a="E"><vh>第七頁</vh>
+<v t="yen.20161011145156.2" a="E"><vh></vh>
+<v t="yen.20161011145156.3"><vh>w7</vh></v>
+</v>
+</v>
+<v t="yen.20161016012809.1" a="E"><vh>第八頁</vh>
+<v t="yen.20161016012809.2" a="E"><vh></vh>
+<v t="yen.20161016012809.3"><vh>end</vh></v>
+</v>
+</v>
+</v>
+</v>
+</v>
+</v>
+</v>
 <v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
@@ -36,9 +87,11 @@
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20161101.md</vh></v>
-<v t="leo.20161014142409.1"><vh>@edit 20161002.md</vh></v>
-<v t="leo.20161024160947.1"><vh>@edit 20161024.md</vh></v>
-<v t="leo.20161031141953.1"><vh>@edit 20161031.md</vh></v>
+<v t="leo.20161014142409.1"><vh>@edit 20161102.md</vh></v>
+<v t="leo.20161115193813.1"><vh>@edit 20161103.md</vh></v>
+<v t="leo.20161115193813.2"><vh>@edit 20161104.md</vh></v>
+<v t="leo.20161115193813.3"><vh>@edit 20161105.md</vh></v>
+<v t="leo.20161115210147.1"><vh>@edit 20161106.md</vh></v>
 </v>
 </v>
 </v>
@@ -75,12 +128,134 @@ Author: yen
 &lt;pre class="brush: python;"&gt;
 print("hello")
 &lt;/pre&gt;</t>
+<t tx="amd.20151216151325.1">@language xml
+@tabwidth -4
+@others
+
+</t>
 <t tx="amd.20160106093454.1"></t>
 <t tx="amd.20160106094754.1"></t>
 <t tx="amd.20160106094829.1"></t>
 <t tx="amd.20160106095324.1"></t>
 <t tx="amd.20160727114506.1"></t>
 <t tx="amd.20160921213353.1"></t>
+<t tx="amd.20161004083800.1">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+@others
+&lt;/html&gt;
+</t>
+<t tx="amd.20161004083800.2">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;    
+40523122的計算機程式課程
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+</t>
+<t tx="amd.20161004083800.5">&lt;body&gt;
+@others
+&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/math/math.js', async: true }
+            ]
+        });
+&lt;/script&gt;
+&lt;/body&gt;
+</t>
+<t tx="amd.20161004083800.6">&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+
+</t>
+<t tx="amd.20161004083800.7">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+
+</t>
+<t tx="amd.20161004095719.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="amd.20161004095719.2"># 紀錦川的計算機程式課程
+
+### 四設一甲 40523122
+
+&lt;small&gt;
+Created by [紀錦川](http://s40523122.github.io)/[@s40523122](https://github.com/s40523122)
+&lt;/small&gt;
+
+[Blog](blog/index.html)&lt;br/&gt;
+[Wiki](https://github.com/s40523122/2016fallcp_hw/wiki)&lt;br/&gt;
+[作業倉儲](https://github.com/s40523122/2016fallcp_hw)
+
+</t>
+<t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="amd.20161004104641.2"># Git clone 使用
+
+&lt;iframe src="https://player.vimeo.com/video/191367588" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/191367588"&gt;clone&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="amd.20161004104820.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -187,6 +362,167 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="yen.20161011122601.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011122601.2"># 使用localhost
+
+&lt;iframe src="https://player.vimeo.com/video/191622952" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/191622952"&gt;localhost&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="yen.20161011122932.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011125115.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011143808.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011143808.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011143808.3">#git clone 順序
+1.cd 進入想儲存的資料夾
+&lt;br/&gt;
+2.git clone 遠端的網址 (可在後面加名稱表創一個資料夾)
+&lt;br/&gt;
+3.git branch 確認分支是否正確，可在後面加名稱表加入一個新分支
+&lt;br/&gt;
+4.git checkout 切換成想要使用的分支
+&lt;br/&gt;
+5.git status 確認資料夾狀態
+&lt;br/&gt;
+6.git all -A 加入全部的修改
+&lt;br/&gt;
+7.git commit -m 提交並給一個訊息
+&lt;br/&gt;
+8.git push origin 推回遠端，可在後面家要加入的分支的名稱</t>
+<t tx="yen.20161011145156.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011145156.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161011145156.3">#W7作業
+   data3 = open("w6_group.txt").read()
+    #data3=open("w6_list.txt").read()
+    #print (data3)
+
+    group=data3.splitlines()
+    #for i in range(1,5,2):
+    #print(len(group))
+
+
+
+    # 希望將分組資料轉為學員數列, 令為變數名稱 result_g
+    result_g = []
+    # 已經註冊者數列設為 registered
+    registered = open("w6_list.txt").read()
+    registered =registered.splitlines()
+    #print(registered)
+    for line in group:
+        # 去除每一行最後的空白成員
+        sline = line.split(",")[:-1]
+        #print ( sline)
+        # 再將各組拆成個別組員後, 串成 result_g
+           for m in sline:
+            result_g.append(m)
+        #print(result_g)
+    #not_in_group = [c for c in registered if c not in result_g]
+    #print(not_in_group)
+
+    for m in registered:
+	    if m not in result_g:
+		    print(m)
+        #container3 &lt;= len(sline)
+</t>
+<t tx="yen.20161016004633.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="yen.20161016004633.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161016004633.5"># ShareX
+
+&lt;iframe src="https://player.vimeo.com/video/191363719" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/191363719"&gt;sharex&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="yen.20161016011920.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161016011920.2">#git 指令
+cd=change directory&lt;br/&gt;
+dir=directory&lt;br/&gt;
+mk dir=make directory&lt;br/&gt;
+git clone ***...........................克隆***倉儲資料&lt;br/&gt;
+git branch..............................查詢目前分支&lt;br/&gt;
+git branch***...........................建立***分支&lt;br/&gt;
+git checkout ***........................改成***分支&lt;br/&gt;
+git status..............................查看目前檔案情形&lt;br/&gt;
+git config --global user.name "***".....登入名稱***&lt;br/&gt;
+git config --global user.email ***......登入信箱***&lt;br/&gt;
+git add -A..............................加入全部(-A =all)&lt;br/&gt;
+git commit -m...........................提交訊息(-m =message)&lt;br/&gt;
+git push ### ***........................提交至###的***分支(若### =origin 表原網頁)</t>
+<t tx="yen.20161016012809.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161016012809.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="yen.20161016012809.3">##end</t>
+<t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="yen.20161016023122.2"># Github簡介
+
+&lt;iframe src="https://player.vimeo.com/video/191363717" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/191363717"&gt;github&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="yen.20161022111056.1">@language python
 import os
 import subprocess
@@ -196,14 +532,14 @@ import http.server, ssl
 def domake():
     # build directory
     os.chdir("./../")
-    server_address = ('localhost', 5443)
+    server_address = ('localhost', 6443)
     httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
     httpd.socket = ssl.wrap_socket(httpd.socket,
                                    server_side=True,
                                    certfile='localhost.crt',
                                    keyfile='localhost.key',
                                    ssl_version=ssl.PROTOCOL_TLSv1)
-    print("5443 https server started")
+    print("6443 https server started")
     httpd.serve_forever()
 
 # 利用執行緒執行 https 伺服器
