@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>github簡介 - 40523122的個人作業網誌</title>
+    <title>吉他和弦 - 40523122的個人作業網誌</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,20 +166,19 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./githubjian-jie.html">
+<link rel="canonical" href="./ji-ta-he-xian.html">
 
         <meta name="author" content="40523122" />
-        <meta name="keywords" content="使用引導" />
-        <meta name="description" content="介紹github基本操作" />
+        <meta name="keywords" content="練習" />
 
         <meta property="og:site_name" content="40523122的個人作業網誌" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="github簡介"/>
-        <meta property="og:url" content="./githubjian-jie.html"/>
-        <meta property="og:description" content="介紹github基本操作"/>
-        <meta property="article:published_time" content="2016-11-02" />
-            <meta property="article:section" content="hw" />
-            <meta property="article:tag" content="使用引導" />
+        <meta property="og:title" content="吉他和弦"/>
+        <meta property="og:url" content="./ji-ta-he-xian.html"/>
+        <meta property="og:description" content=""/>
+        <meta property="article:published_time" content="2016-12-02" />
+            <meta property="article:section" content="practice" />
+            <meta property="article:tag" content="練習" />
             <meta property="article:author" content="40523122" />
 
 
@@ -261,10 +260,10 @@ init_mathjax();
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li class="active">
+                        <li >
                             <a href="./category/hw.html">Hw</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="./category/practice.html">Practice</a>
                         </li>
             </ul>
@@ -290,10 +289,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./githubjian-jie.html"
+                    <a href="./ji-ta-he-xian.html"
                        rel="bookmark"
-                       title="Permalink to github簡介">
-                        github簡介
+                       title="Permalink to 吉他和弦">
+                        吉他和弦
                     </a>
                 </h1>
             </header>
@@ -303,7 +302,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2016-11-02T12:00:00+08:00"> 週三 02 十一月 2016</time>
+        <i class="fa fa-calendar"></i><time datetime="2016-12-02T14:00:00+08:00"> 週五 02 十二月 2016</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40523122.html"><i class="fa fa-user"></i> 40523122</a>
@@ -311,15 +310,94 @@ init_mathjax();
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/shi-yong-yin-dao.html">使用引導</a>
+	<a href="./tag/lian-xi.html">練習</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>介紹github基本操作
-</p>
-<iframe src="https://player.vimeo.com/video/191363717" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <!-- PELICAN_END_SUMMARY -->
 
-<p><a href="https://vimeo.com/191363717">github</a> from <a href="https://vimeo.com/user58912544">JJC210</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫兩條直線 -->
+
+<canvas id="guitarchord" width="600" height="500"></canvas>
+
+<script type="text/python3">
+
+from browser import document as doc
+
+import math
+# 準備繪圖畫布
+canvas = doc["guitarchord"]
+ctx = canvas.getContext("2d")
+
+ctx.beginPath()
+ctx.lineWidth = 500
+ctx.strokeStyle = "pink"
+ctx.moveTo(0,250)
+ctx.lineTo(600,250)
+
+ctx.stroke()
+ctx.closePath()
+
+
+
+
+
+
+ctx.beginPath()
+ctx.lineWidth = 6
+ctx.strokeStyle = "red"
+ctx.moveTo(209.5,153)
+ctx.lineTo(360.5,153)
+
+
+ctx.stroke()
+ctx.closePath()
+
+ctx.beginPath()
+ctx.lineWidth = 1
+ctx.strokeStyle = "red"
+
+inc=30
+for i in range(6):
+    ctx.moveTo(210+i*inc,400)
+    ctx.lineTo(210+i*inc,150)
+
+
+ctx.stroke()
+ctx.closePath()
+
+ctx.beginPath()
+ctx.lineWidth = 1
+ctx.strokeStyle = "red"
+
+inc=-50
+for i in range(5):
+    ctx.moveTo(210,400+i*inc)
+    ctx.lineTo(360,400+i*inc)
+
+
+
+
+
+
+
+
+
+ctx.stroke()
+ctx.closePath()
+</script>
             </div>
             <!-- /.entry-content -->
         </article>
