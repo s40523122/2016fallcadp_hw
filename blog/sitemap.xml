@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-01-13T13:48:46-00:00</lastmod>
+<lastmod>2017-01-13T13:58:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-01-13T13:48:46-00:00</lastmod>
+<lastmod>2017-01-13T13:58:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-01-13T13:48:46-00:00</lastmod>
+<lastmod>2017-01-13T13:58:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-01-13T13:48:46-00:00</lastmod>
+<lastmod>2017-01-13T13:58:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./pages/about/</loc>
 <lastmod>2017-01-13T01:16:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./chi-xu-bu-chong-xin-de-zhong.html</loc>
+<lastmod>2017-01-13T14:01:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -123,6 +130,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./category/ex.html</loc>
+<lastmod>2017-01-13T14:01:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./category/hw.html</loc>
 <lastmod>2016-11-06T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -137,13 +151,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/lian-xi.html</loc>
-<lastmod>2017-01-13T14:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/shi-yong-yin-dao.html</loc>
 <lastmod>2016-11-05T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -151,8 +158,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/zhi-ling.html</loc>
-<lastmod>2016-11-06T12:00:00+08:06</lastmod>
+<loc>./tag/lian-xi.html</loc>
+<lastmod>2017-01-13T14:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -165,8 +172,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/ex.html</loc>
+<lastmod>2017-01-13T14:01:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/zhi-ling.html</loc>
+<lastmod>2016-11-06T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./author/40523122.html</loc>
-<lastmod>2017-01-13T14:00:00+08:06</lastmod>
+<lastmod>2017-01-13T14:01:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
