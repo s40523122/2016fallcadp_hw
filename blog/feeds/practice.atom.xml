@@ -87,7 +87,9 @@ def animate():
     theta += 1
 
 timer.set_interval(animate, 50)
-&lt;/script&gt;</summary><category term="練習"></category></entry><entry><title>連桿機構</title><link href="./lian-gan-ji-gou.html" rel="alternate"></link><published>2017-01-06T14:00:00+08:00</published><updated>2017-01-06T14:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-01-06:./lian-gan-ji-gou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;
+
+&lt;p&gt;補心得中~&lt;/p&gt;</summary><category term="練習"></category></entry><entry><title>連桿機構</title><link href="./lian-gan-ji-gou.html" rel="alternate"></link><published>2017-01-06T14:00:00+08:00</published><updated>2017-01-06T14:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-01-06:./lian-gan-ji-gou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -179,7 +181,9 @@ def animate():
     theta += 1
 
 timer.set_interval(animate, 50)
-&lt;/script&gt;</summary><category term="練習"></category></entry><entry><title>buttont產生亂數</title><link href="./buttontchan-sheng-luan-shu.html" rel="alternate"></link><published>2016-12-31T12:00:00+08:00</published><updated>2016-12-31T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-12-31:./buttontchan-sheng-luan-shu.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;
+
+&lt;p&gt;補心得中~&lt;/p&gt;</summary><category term="練習"></category></entry><entry><title>buttont產生亂數</title><link href="./buttontchan-sheng-luan-shu.html" rel="alternate"></link><published>2016-12-31T12:00:00+08:00</published><updated>2016-12-31T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-12-31:./buttontchan-sheng-luan-shu.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -318,7 +322,8 @@ def autoguess(ev):
 document["but4"].bind("click", autoguess)
 &lt;/script&gt;
 
-&lt;p&gt;&lt;button id="but4"&gt;利用程式玩猜數字&lt;/button&gt;&lt;/p&gt;</summary><category term="button"></category></entry><entry><title>button練習</title><link href="./buttonlian-xi.html" rel="alternate"></link><published>2016-12-24T12:00:00+08:00</published><updated>2016-12-24T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-12-24:./buttonlian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;button id="but4"&gt;利用程式玩猜數字&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;補心得中~&lt;/p&gt;</summary><category term="button"></category></entry><entry><title>button練習</title><link href="./buttonlian-xi.html" rel="alternate"></link><published>2016-12-24T12:00:00+08:00</published><updated>2016-12-24T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2016-12-24:./buttonlian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
