@@ -261,9 +261,6 @@ init_mathjax();
                              About
                           </a></li>
                         <li >
-                            <a href="./category/ex.html">Ex</a>
-                        </li>
-                        <li >
                             <a href="./category/hw.html">Hw</a>
                         </li>
                         <li class="active">
@@ -401,6 +398,74 @@ for i in range(5):
 ctx.stroke()
 ctx.closePath()
 </script>
+
+<pre class="brush: python">
+
+# 準備繪圖畫布
+canvas = doc["guitarchord"]
+ctx = canvas.getContext("2d")
+
+ctx.beginPath()
+ctx.lineWidth = 500
+ctx.strokeStyle = "pink"
+ctx.moveTo(0,250)
+ctx.lineTo(600,250)
+
+ctx.stroke()
+ctx.closePath()
+
+
+
+
+
+
+ctx.beginPath()
+ctx.lineWidth = 6
+ctx.strokeStyle = "red"
+ctx.moveTo(209.5,153)
+ctx.lineTo(360.5,153)
+
+
+ctx.stroke()
+ctx.closePath()
+
+ctx.beginPath()
+ctx.lineWidth = 1
+ctx.strokeStyle = "red"
+
+inc=30
+for i in range(6):
+    ctx.moveTo(210+i*inc,400)
+    ctx.lineTo(210+i*inc,150)
+
+
+ctx.stroke()
+ctx.closePath()
+
+ctx.beginPath()
+ctx.lineWidth = 1
+ctx.strokeStyle = "red"
+
+inc=-50
+for i in range(5):
+    ctx.moveTo(210,400+i*inc)
+    ctx.lineTo(360,400+i*inc)
+
+
+
+
+
+
+
+
+
+ctx.stroke()
+ctx.closePath()
+</script>
+
+</pre>
+
+<p>心得:下學期開始使用了python 第一次打程式是一個新的體驗 感覺很棒!</p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -416,11 +481,6 @@ ctx.closePath()
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./chi-xu-bu-chong-xin-de-zhong.html">
-                            持續補充心得中~
-                        </a>
-                    </li>
-                    <li class="list-group-item">
                         <a href="./lian-gan-ji-gou-2.html">
                             連桿機構-2
                         </a>
@@ -431,8 +491,8 @@ ctx.closePath()
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./buttontchan-sheng-luan-shu.html">
-                            buttont產生亂數
+                        <a href="./buttonchan-sheng-luan-shu.html">
+                            button產生亂數
                         </a>
                     </li>
                     <li class="list-group-item">
@@ -440,16 +500,16 @@ ctx.closePath()
                             button練習
                         </a>
                     </li>
+                    <li class="list-group-item">
+                        <a href="./ji-ta-he-xian.html">
+                            吉他和弦
+                        </a>
+                    </li>
                 </ul>
             </li>
 
             <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
                 <ul class="list-group" id="categories">
-                    <li class="list-group-item">
-                        <a href="./category/ex.html">
-                            <i class="fa fa-folder-open fa-lg"></i> EX
-                        </a>
-                    </li>
                     <li class="list-group-item">
                         <a href="./category/hw.html">
                             <i class="fa fa-folder-open fa-lg"></i> hw
